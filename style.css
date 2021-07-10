@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Comfortaa, sans-serif; 
+    background-color:#f3e0e2 ;
+}
+main{
+    display: flex;
+    width: 80vw;
+    box-shadow: 10px 10px 48px #3c3c49;
+}
+main > *{
+    flex-basis: 100%;
+}
+.login-form{
+background-color: #fff;
+text-align: center;
+}
+.login-form-heading{
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 3rem;
+font-weight: bold;
+}
+.login-form p{
+    margin-bottom: 15px;
+}
+.fab{
+    border: 2px solid #EEEEEE;
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.fa-facebook{
+    margin-right: 10px;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    background-color: #eeeeee;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+}
+form a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(32, 32, 32);
+    display: inline-block;
+    margin-top:20px ;
+    margin-bottom: 15px;
+}
+.sub input{
+    background-color: #FF4828;
+    width: 18%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login-text{
+    background-image: linear-gradient(to right, #FF4540, #ff416a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5rem ;
+}
+.text h2{
+    margin-bottom: 30px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh ;
+}
